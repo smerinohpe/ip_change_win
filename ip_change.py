@@ -72,7 +72,7 @@ def ip ():
 lbl = Label(window, text="Select an option")
 lbl.grid(row=0, columnspan=3)
 
-ip()
+#ip()
 
 conf_ip_text= Label(window, text="IP Address:")
 conf_ip_text.grid(row=1, column=0, sticky=E)
