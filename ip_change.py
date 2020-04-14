@@ -1,12 +1,11 @@
 import subprocess as sub
 import os
 from tkinter import *
-import time
 
 window = Tk()
 window.title("Changing IPv4 address")
 window.attributes('-topmost',True)
-window.geometry()
+window.geometry('+950+680')
 
 def clicked(arg):
   if arg == 1:
